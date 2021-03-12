@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.centertop{
+    margin: 0px;
+    padding: 0px;
+    /* display: block; */
+    position: relative;
+}
+.center{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.centertop .top1{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    
+  }
+
+.centertop .topleft{
+   /* width: 100px;
+   position: absolute;
+   left: 400px; */
+   /* top: 50px; */
+   position: relative;
+   top: 50%;
+   left: 50%;
+   /* bring your own prefixes */
+  transform: translate(-250%, -60%);
+ }
+
+ .centertop .topright{
+    position: absolute;
+    width: 120px;
+    top: 55%;
+    left: 50%;
+    /* bring your own prefixes */
+  transform: translate(140%, -80%);
+}
+
+.centertop .topleftleft{
+    position: absolute;
+    width: 120px;
+    top: 50%;
+    left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-350%, -30%);
+
+} 
+
+.centertop .toprightright{
+    position: absolute;
+    width: 100px;
+    top: 55%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(340%, -30%);
+}
+
+.centertop .topleftleftlast{
+    position: absolute;
+    width: 150px;
+    top: 60%;
+    left: 50%;
+   /* bring your own prefixes */
+   transform: translate(-320%, 90%);
+
+}
+.centertop .toprightrightlast{
+
+    position: absolute;
+    width: 100px;
+    top: 55%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(390%, 100%);
+}
